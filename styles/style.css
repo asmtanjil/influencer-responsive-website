@@ -168,3 +168,33 @@ body{
  color: #FFFFFF;
  
 }
+
+/* Mediaaaaa */
+@media screen and (max-width:688px){
+  .influencers{
+  flex-direction: column-reverse;
+  align-items: center;
+  }
+
+  .tool{
+    width: 100%;
+  }
+
+  .tool-banner{
+    width: 100%;
+  }
+
+  .brands-logos{
+    margin: 0;
+    border: 0
+  }
+
+  .brand{
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20;
+  }
+  .gadgets{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
